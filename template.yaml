@@ -21,7 +21,9 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.7
-      CodeUri: 's3://scratch-amiri-1/app-helloworld-APICall.zip'
+      CodeUri:
+        Bucket: scratch-amiri-1
+        Key: app-helloworld-APICall.zip
       MemorySize: 256
       Timeout: 15
       #Role: arn:aws:iam::709203276624:role/lambda_basic_execution
