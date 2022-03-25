@@ -7,7 +7,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Python code...
-      - pip install requests==2.25.1 -t .
+      #- pip install requests==2.25.1 -t .
       - >-
         aws cloudformation package --template template.yaml --s3-bucket
         scratch-amiri-1 --output-template template-export.yaml
