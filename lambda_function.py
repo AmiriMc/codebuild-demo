@@ -2,6 +2,7 @@ import json
 import boto3
 import requests
 # 3/25/2022 138pm
+# https://stackoverflow.com/questions/26491981/aws-s3-api-error-specified-bucket-does-not-exist
 
 
 def lambda_handler(event, context):
