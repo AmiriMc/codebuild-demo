@@ -10,7 +10,7 @@ phases:
       - pip install requests -t .
       - >-
         aws cloudformation package --template template.yaml --s3-bucket
-        scratch-amiri --output-template template-export.yaml
+        scratch-amiri-1 --output-template template-export.yaml
   post_build:
     commands:
       - echo Build completed on `date`
