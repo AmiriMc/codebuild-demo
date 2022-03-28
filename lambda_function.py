@@ -3,7 +3,8 @@ import boto3
 import requests
 # 3/25/2022 138pm
 # https://stackoverflow.com/questions/26491981/aws-s3-api-error-specified-bucket-does-not-exist
-
+# https://www.thegeeksearch.com/how-to-create-files-and-directories-in-linux-using-touch-and-mkdir-commands/
+# 3/28/2022 218pm
 
 def lambda_handler(event, context):
     # TODO implement
